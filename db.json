@@ -1,0 +1,16 @@
+{
+  "Items": [
+    {
+      "id": "1",
+      "name": "CM1601",
+      "price": "$25.000",
+      "image": "https://webapi.wiener-lab.com/storage/assets/WienerAsset-3972-6511fc377e927.webp"
+    },
+    {
+      "id": "2",
+      "name": "Counter S19",
+      "price": "$10.000",
+      "image": "https://coech.com.ar/alpha/wp-content/uploads/2018/03/cm400i.jpg"
+    }
+  ]
+}

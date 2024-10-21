@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Productos Wiener">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;
+                0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <title>challenge AluraGeek</title>
+</head>
+
+<body class ="all-body"> 
+    <!--Banner Top-->  
+    <header class="top-bar">
+        <section class="top-banner">
+            <img class="logo" src="./image/wiener-logo.png" alt="Imagen de la empresa">
+            <a class="name-header" href="#top">Alura Geek</a>
+        </section>
+    </header>
+    <!--Medium Body-->
+    <main class="medium-body">
+        <!--Items-->
+        <section class="Items">
+            <h2 class="Title" > Mis Productos</h2>
+            <ul class="list-items" data-lista>
+                <li class="list-item" >
+                    <img src="./image/Items/counters30.webp" alt="item image" class="item-image" data-image accept="image/*">
+                    <p class="text-list">Counter S30</p>
+                    <section class="price-delete">
+                        <h3 classe="price">$20.000</h3>
+                        <button class="btn-eliminar" button-eliminar>
+                            <img src="./image/eliminar.png" alt="borrar" class="eliminar" width="50px">
+                        </button>
+                    </section>
+                    
+                </li> 
+                
+            </ul>
+        </section>
+        <!--Form-->
+        <section class="Form" data-formulario id="formulario">
+            <h2 class="Title-form" > Agregar Producto:</h2>
+            <form action="" class="form-body">
+                <input type="text" id="nombre" name="nombre" required class="form-input" placeholder="Nombre" data-name><br><br>
+                <input type="text" id="precio" name="precio" required class="form-input"placeholder="Precio"data-price><br><br>
+                <input type="text" id="imagen" name="imagen" required class="form-input"placeholder="Imagen Url" data-image><br><br>
+                <section class="buttons">
+                    <button class=" button button-enviar" type="submit" button-enviar id="enviar">Enviar</button>
+                    <button class="button button-limpiar"type="clear" id="clear" >Limpiar</button>
+                </section>
+            </form>
+        </section>     
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+        <section class="down-banner">
+            <section class="text-down">
+            <img class="logo"src="./image/wiener-logo.png" alt="Imagen de la empresa">
+            <a class="name-footer" href="#top">Wiener Lab</a>
+            </section>
+            <p class="text-footer">Desarrollado por Luis Morúa</p>
+            <p class="text-footer">2024 - Costa Rica</p>
+            
+        </section>
+    </footer >
+    <script src="./js/mostrarItems.js" type="module"></script>
+    <script src="./js/crearNuevoItem.js" type="module"></script>
+</body>
+</html>
